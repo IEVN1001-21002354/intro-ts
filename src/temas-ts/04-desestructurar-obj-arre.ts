@@ -1,3 +1,5 @@
+
+//NO DESESTRUCTURADO---------------------------------------------------------------------------
 //Interfaz principal
 interface Reproductor{
     volumen:number;
@@ -35,7 +37,7 @@ console.log(`El cantante es: ${reproductor.detalles.autor}`)
 console.log(`El año es: ${reproductor.detalles.year}`)
 */
 
-//Destructuracion, para evitar el .. de los saltos para llegar  a las propiedades
+//Destructuracion, para evitar el .. de los saltos para llegar  a las propiedades---------------------------------------------------------------------------
 
 const{volumen, segundo, cancion, detalles}=reproductor;
 const{autor, year}=detalles;
@@ -56,5 +58,7 @@ const[a,,b,c]=dbz;
 console.log(`Personaje 1: ${a}`)
 console.log(`Personaje 2: ${b}`)
 console.log(`Personaje 3: ${c}`)
+
+
 
 

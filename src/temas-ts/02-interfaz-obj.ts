@@ -35,5 +35,5 @@ console.log(mascotas);
 let tem:(string|number)[]=[];
 tem.push('Mario')
 
-console.log(tem)
+console.log(tem) 
 
